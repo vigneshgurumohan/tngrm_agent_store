@@ -130,7 +130,7 @@ function MarketNeedSection() {
       color: "#9A4681",
     },
     {
-      stakeholder: "Resellers/Partners",
+      stakeholder: "Partners",
       icon: Handshake,
       challenge: "Have networks but lack demo-ready AI",
       painPoints: "No ready-to-sell repository, limited ISV visibility",
@@ -363,12 +363,12 @@ function UserJourneysAndImpactSection() {
     },
     {
       id: "partner",
-      label: "Reseller/Partner",
+      label: "Partner",
       icon: Handshake,
       flow: partnerFlow,
       benefits: partnerBenefits,
       color: "#9A4681",
-      endState: "Reseller ready to use marketplace for GTM; generates leads and client demo conversions.",
+      endState: "Partner ready to use marketplace for GTM; generates leads and client demo conversions.",
     },
     {
       id: "isv",
@@ -377,7 +377,7 @@ function UserJourneysAndImpactSection() {
       flow: isvFlow,
       benefits: isvBenefits,
       color: "#614BDB",
-      endState: "Agent gets approved and listed publicly, discoverable by resellers and clients.",
+      endState: "Agent gets approved and listed publicly, discoverable by partners and clients.",
     },
     {
       id: "admin",
@@ -537,7 +537,7 @@ function OutcomesSection() {
       color: "#614BDB",
     },
     {
-      metric: "Reseller Conversions",
+      metric: "Partner Conversions",
       target: ">15%",
       targetNumber: 15,
       subtitle: "demo-to-sale conversion rate",
@@ -682,7 +682,7 @@ function StrategySection() {
       phase: "Operate",
       icon: Play,
       timeline: "Nov 2025 to Jan 2026",
-      objective: "Test workflows, onboard ISVs, validate reseller engagement",
+      objective: "Test workflows, onboard ISVs, validate partner engagement",
       color: "#9A4681",
     },
     {

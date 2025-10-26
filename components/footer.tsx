@@ -19,7 +19,7 @@ export function Footer() {
           {/* Left side - Logos and tagline */}
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-8">
-              <Image src="/crayon Logo White.png" alt="Crayon" width={130} height={40} className="h-7 w-auto" />
+              <Image src="/CrayonLogoWhite.png" alt="Crayon" width={130} height={40} className="h-7 w-auto" />
               <Image src="/tangram_log.png" alt="Tangram.ai" width={150} height={40} className="h-7 w-auto" />
             </div>
             <p

@@ -275,7 +275,7 @@ export default function AgentLibraryPage() {
               className="mb-25 text-balance text-[18px] font-normal leading-[150%] tracking-[0]"
               style={{ color: "#374151", fontFamily: "Inter, sans-serif" }}
             >
-              Discover.Try. Deploy.
+              Discover. Try. Deploy.
             </p>
 
             {/* Centered search bar under subheader */}

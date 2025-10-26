@@ -369,12 +369,12 @@ AI success made easy. </span>
               {/* Reseller Card */}
               <div className="bg-gray-50 rounded-lg shadow-sm p-6 w-[472px] h-[275px] flex flex-col justify-between text-left">
                 <div>
-                  <span className="inline-block mb-3 px-3 py-1  text-sm font-medium" style={{ backgroundColor: '#E6EDFD', color: '#0f172a' }}>Become an AI Reseller</span>
-                  <h3 className="mb-2 text-xl font-bold">Tangram.ai Reseller</h3>
-                  <p className="text-sm text-muted-foreground">Our Reseller program allows you to access Tangram.ai resources, support and professional services for your projects.</p>
+                  <span className="inline-block mb-3 px-3 py-1  text-sm font-medium" style={{ backgroundColor: '#E6EDFD', color: '#0f172a' }}>Become an AI Partner</span>
+                  <h3 className="mb-2 text-xl font-bold">Tangram.ai Partner</h3>
+                  <p className="text-sm text-muted-foreground">Our Partner program allows you to access Tangram.ai resources, support and professional services for your projects.</p>
                 </div>
                 <div className="flex justify-start">
-                  <Button variant="outline" onClick={() => openModal("auth", { mode: "signup", role: "reseller" })} className="px-4 py-2">BECOME A RESELLER</Button>
+                  <Button variant="outline" onClick={() => openModal("auth", { mode: "signup", role: "reseller" })} className="px-4 py-2">BECOME A Partner</Button>
                 </div>
               </div>
             </div>

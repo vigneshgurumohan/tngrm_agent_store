@@ -26,7 +26,7 @@ export function AuthTabs({ activeTab, onTabChange }: AuthTabsProps) {
         onClick={() => onTabChange?.("reseller")}
       >
         <Users className="h-4 w-4" />
-        Reseller
+        Partner
       </button>
       <button
         className={`flex flex-1 items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors ${

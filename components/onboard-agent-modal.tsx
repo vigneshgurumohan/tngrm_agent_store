@@ -19,10 +19,10 @@ export function OnboardAgentModal({ isOpen, onClose }: OnboardAgentModalProps) {
     vendor: {
       title: "Welcome to ISV Platform",
       subtitle:
-        "You haven't onboard any agents yet. Reseller with us to showcase your AI solutions to our enterprise clients.",
+        "You haven't onboard any agents yet. Partner with us to showcase your AI solutions to our enterprise clients.",
     },
     reseller: {
-      title: "Welcome to Reseller Platform",
+      title: "Welcome to Partner Platform",
       subtitle:
         "You haven't onboarded any agents yet. Start partnering and showcase AI solutions to enterprise clients.",
     },

@@ -49,7 +49,7 @@ export function ResellerDetailsModal({
             <div>
               <DialogTitle className="text-2xl">{reseller.reseller_name}</DialogTitle>
               <p className="text-sm text-muted-foreground mt-1">
-                Reseller ID: {reseller.reseller_id}
+                Partner ID: {reseller.reseller_id}
               </p>
               <div className="mt-2">
                 {getStatusBadge(reseller.admin_approved)}
@@ -138,7 +138,7 @@ export function ResellerDetailsModal({
             Reject
           </Button>
           <Button className="bg-black hover:bg-black/90" onClick={() => onApprove(reseller)}>
-            Approve Reseller
+            Approve Partner
           </Button>
         </div>
       </DialogContent>

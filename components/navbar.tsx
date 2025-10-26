@@ -165,7 +165,7 @@ export function Navbar() {
                 ISV
               </Link>
               <Link href="/reseller" className="text-sm font-medium text-gray-700 hover:text-primary transition-colors">
-                Reseller
+                Partner
               </Link>
               <Link href="/tech-stack" className="text-sm font-medium text-gray-700 hover:text-primary transition-colors">
                 Deployment Options
@@ -321,7 +321,7 @@ export function Navbar() {
               className="block text-sm font-medium text-gray-700 hover:text-primary transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Reseller
+              Partner
             </Link>
             <Link 
               href="/tech-stack" 

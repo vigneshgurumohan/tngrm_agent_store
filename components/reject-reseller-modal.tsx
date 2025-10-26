@@ -32,7 +32,7 @@ export function RejectResellerModal({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-xl">Reject this Reseller</DialogTitle>
+          <DialogTitle className="text-xl">Reject this Partner</DialogTitle>
           <p className="text-sm text-muted-foreground">Mention reason for rejecting {reseller.reseller_name}</p>
         </DialogHeader>
 

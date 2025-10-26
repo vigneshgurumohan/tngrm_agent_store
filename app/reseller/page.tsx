@@ -19,7 +19,7 @@ export default function ResellerPage() {
 
                     <div className="max-w-2xl">
                         <h1 className="text-5xl font-bold mb-6 text-balance">Drive new revenue with AI offerings from 1000+ ISVs </h1>
-                        <p className="text-xl mb-4 font-medium"> Join Tangram.ai Enterprise Agents Reseller Program Accelerator. </p>
+                        <p className="text-xl mb-4 font-medium"> Join Tangram.ai Enterprise Agents Partner Program Accelerator. </p>
                         <p className="text-gray-700 mb-8 leading-relaxed">
                             Start referring or integrating agents from Tangram.ai store with your clients today to unlock new revenue opportunities, accelerate growth, and deliver intelligent AI solutions at scale.
                         </p>
@@ -28,7 +28,7 @@ export default function ResellerPage() {
                             Become a tangram reseller
                             </Button> */}
                             <Button size="lg"  onClick={() => openModal("auth", { mode: "login", role: "reseller" })}>
-                                LOGIN TO RESELLER HUB
+                                LOGIN TO PARTNER HUB
                             </Button>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default function ResellerPage() {
                 <div className="mx-auto max-w-[1280px] px-6 text-center pt-12">
                     <h2 className="text-4xl font-bold mb-4">Are You a Good Fit?</h2>
                     <p className="text-gray-700 leading-relaxed">
-                        You’re a good fit for the Tangram.ai Reseller Program if you help clients adopt AI-driven solutions and want to expand your portfolio with enterprise-ready intelligence.
+                        You’re a good fit for the Tangram.ai Partner Program if you help clients adopt AI-driven solutions and want to expand your portfolio with enterprise-ready intelligence.
                     </p>
                 </div>
             </section>
@@ -100,9 +100,9 @@ export default function ResellerPage() {
                     <div className="flex flex-col md:flex-row gap-12 items-center">
                         {/* Left side - Text content (50%) */}
                         <div className="flex-1 md:w-1/2">
-                            <h2 className="text-3xl font-bold mb-6">Benefits of Reseller Partnership</h2>
+                            <h2 className="text-3xl font-bold mb-6">Benefits of Partnership</h2>
                             <p className="text-gray-600 leading-relaxed">
-                            Partnering with Tangram.ai unlocks new revenue streams, faster deal cycles, and access to enterprise-ready AI solutions. Resellers gain co-selling support, marketing enablement, and dedicated partner success resources — empowering them to deliver intelligent, scalable value to every client.
+                            Partnering with Tangram.ai unlocks new revenue streams, faster deal cycles, and access to enterprise-ready AI solutions. Partners gain co-selling support, marketing enablement, and dedicated partner success resources — empowering them to deliver intelligent, scalable value to every client.
                             </p>
                         </div>
 

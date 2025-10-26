@@ -70,7 +70,7 @@ export default function DashboardPage() {
 
       if (user.role === 'reseller') {
         toast({
-          description: "Dashboard is not available for resellers.",
+          description: "Dashboard is not available for partners.",
           variant: "destructive",
         })
         router.push('/')
